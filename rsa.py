@@ -38,3 +38,4 @@ decifrado = pow(cifrado,d)%mod
 print(f"descifrado {decifrado}")
 
 
+print(f"Decifrado con doble exponente {pow(mensaje,e*d)%mod}")
